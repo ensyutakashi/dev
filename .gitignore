@@ -11,6 +11,7 @@
 !**/*.xlsm
 !**/*.parquet
 !**/*.pdf
+!**/*.sql
 !.gitignore
 
 # 4. 特定の個別ファイルを許可 

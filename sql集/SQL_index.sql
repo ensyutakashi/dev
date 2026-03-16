@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_disclosure_info_date ON disclosure_info (公開日);
