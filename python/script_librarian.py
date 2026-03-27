@@ -20,8 +20,6 @@
 # 対象フォルダを指定して、その中のpythonスクリプトをリストアップし、DBに保存する
 # --- 概要 ---
 
-
-
 import os
 import duckdb
 import time
