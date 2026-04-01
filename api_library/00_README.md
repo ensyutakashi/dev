@@ -1,0 +1,1 @@
+Kabustation, rakuten, IB証券, tradingview, yfinace, irbank, J-quants, SBIネオトレード, edinetDB, 立花証券 
