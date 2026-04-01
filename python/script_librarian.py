@@ -1,13 +1,13 @@
 # --- obsidian_property ---
 # scr名: 【自動】
 # 概要: pythonスクリプトライブラリアン
-# 処理grp: script管理
+# 処理grp: tool
 # 処理順番: 0
 # input: 無し
 # output: python_script_list.duckdb
-# mermaid: 
-# tags: ["script管理", "python"]
-# aliases: 
+# mermaid: -
+# tags: ["tool", "DB"]
+# aliases: ["script_librarian.py"]
 # created: 2026-02-24
 # updated: 【自動】
 # folder:【自動】
@@ -243,14 +243,14 @@ def run():
     con.execute("""
         CREATE TABLE IF NOT EXISTS scripts (
             folder TEXT,
+            処理grp TEXT,
+            tags TEXT,
             scr名 TEXT,
             概要 TEXT,
-            処理grp TEXT,
             処理順番 DECIMAL(7, 3),
+            mermaid TEXT,
             input TEXT,
             output TEXT,
-            mermaid TEXT,
-            tags TEXT,
             aliases TEXT,
             created DATE,
             updated TIMESTAMP,
